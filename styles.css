@@ -2,6 +2,8 @@
 
 :root{
     --primary-color: #60A5FA;
+    --gray: #6B7280;
+    --off-white: #E5E7EB;
 }
 
 
@@ -69,4 +71,44 @@ hr{
 .navigation .link-active{
     font-weight: bold;
 }
-
+.hero{
+    padding:2rem;
+}
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    color: var(--gray);
+    padding-top: 1rem;
+    text-align: center;
+}
+.hero .hero-heading .hero-inverted{
+    color: var(--primary-color);
+   
+}
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+    
+}
+.ow{
+    background-color: var(--off-white);
+}
+.footer{
+ 
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
